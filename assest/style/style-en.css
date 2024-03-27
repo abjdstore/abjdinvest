@@ -1,0 +1,3700 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+body {
+    font-family: 'Tajawal';
+}
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+nav
+{
+    margin: 0%;
+    padding: 0%;
+}
+div 
+{
+    padding: 0%;
+    margin: 0%;
+}
+div ul 
+{
+    padding: 0%;
+    margin: 0%;
+}
+div ul li  
+{
+    padding: 0%;
+    margin: 0%;
+}
+div ul li a 
+{
+    padding: 0%;
+    margin: 0%;
+}
+.nav-item1
+{
+    margin-left: 0%;
+    margin-right: 4.14%;
+}
+.nav-item2 , .nav-item3 , .nav-item4
+{
+    margin: 0 4.20%;
+}
+.nav-item5
+{
+    margin-left: 4.14%;
+    margin-right: 0%;
+}
+/* Style the navigation bar */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+} 
+
+/* Style the menu toggle button */
+.menu-toggle {
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+/* Style the menu items */
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #f3f3f3;
+}
+            Custom CSS for centering menu icons
+            .navbar-nav {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-grow: 1;
+            }
+/* Media query for responsive design */
+@media screen and (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+        display: none;
+        text-align: center;
+    }
+
+    .menu.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+}
+
+#header-icons {
+    position: absolute;
+    top: 13%;
+    left: 90%;
+    z-index: +1111111111;
+}
+nav  a {
+    margin: auto 16px;
+}
+nav  a span {
+    font-size: 30px;
+}
+@media (min-width:1620px) {
+    nav  a {
+        margin: auto 28px;
+    }
+    nav  a span {
+        font-size: 25px;
+    }
+}
+@media (max-width:1550) and (min-width:1450px) {
+    nav  a {
+        margin: auto 18px;
+    }
+    nav  a span {
+        font-size: 20px;
+    }
+}
+@media (max-width:1449px) and (min-width:1380px) {
+    nav  a {
+        margin: auto 10px;
+    }
+    nav  a span {
+        font-size: 16px;
+    }
+}
+@media (max-width:1379) and (min-width:1100) {
+    nav  a {
+        margin: auto 0px;
+    }
+    nav  a span {
+        font-size: 10px;
+    }
+}
+@media (max-width:1100px) and (min-width:993px) {
+    nav  a {
+        margin: auto 7px;
+        width: 38px;
+    }
+    nav  a span {
+        font-size: 17px;
+    }
+}
+nav{
+    margin-top: 2%;
+}
+
+#language-icon{
+    position: absolute;
+    background-color: #022e48 ;
+    color: #ffffff;
+    margin-top: 2%;
+    width: 50px;
+    font-size: x-large;
+    border-radius: 50%;
+}
+
+#language-icon-arb{
+    position: absolute;
+    background-color: #022e48 ;
+    color: #ffffff;
+    margin-top: 1%;
+    width: 50px;
+    font-size: x-large;
+    border-radius: 50%;
+    top: 2%;
+    margin-left: 2%;
+}
+
+#language-icon:hover, #language-icon:after{
+    background-color: #ececec;
+    border-color: #022e48;
+    color: #022e48 !important
+}
+.btn-style{
+background-color: #022e48;
+color: #ececec;
+
+}
+#language-icon-arb:hover, #language-icon-arb:after{
+    background-color: #ececec;
+    border-color: #022e48;
+    color: #022e48 !important
+}
+/* .nav{
+    display: grid;
+    justify-content: center;
+    margin-top:3.5%;
+}
+
+.btn:hover, .btn:active{
+    background-color: #ececec;
+    border-color: #022e48;
+    color:#022e48 !important
+} */
+
+.about-us{
+    background: url('../img/aboutus-bg-desk.png') no-repeat center;
+    background-size: 100%;
+    margin-top: 2%;
+    width: 100%;
+    height: 1805px;
+    /* overflow: hidden; */
+}
+
+#AU{
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: 4%;
+    text-align: justify;
+
+    width: 29%;
+    line-height: 2em;
+    font-size: 190%;
+    color: #022e48;
+    /* word-spacing: 2px; */
+    scroll-margin-top: 155px;
+    padding-top: 24.5%;
+}
+
+.as-container{
+    /* background: url('../img/cliped-red-bg.png') no-repeat center; */
+    background-size: 100%;
+    width: 100%;
+    /* height: 6950px; */
+    
+}
+
+#explain{
+    text-align: justify;
+    color: #022e48;
+    font-size: 190%;
+    direction: rtl;
+    line-height: 2em;
+    /* word-spacing: 2px; */
+    margin: 5% 5% 0% 5%;
+}
+
+#p-container{
+    background: url('../img/Asset56.png') no-repeat center;
+    margin: 10% auto 0 auto;
+    background-position-y: 50px;
+    height: 800px;
+    position: relative;
+    width: 70%;
+}
+
+#card{
+    position: absolute;
+    top: 20%;
+    left:35%;
+    width: 17%;
+    animation-name: animation1;
+    animation-delay: 1s;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    /* animation-play-state: paused; */
+}
+
+#cblue{
+    position: absolute;
+    top: 22%;
+    left:35%;
+    width: 13%;
+    animation-name: animation2;
+    animation-delay: 1s;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+
+}
+
+#cred{
+    position: absolute;
+    top: 20%;
+    left:35%;
+    animation-name: animation3;
+    animation-delay: 1s;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+
+}
+
+#watch{
+    position: absolute;
+    top: 10%;
+    left:35%;
+    animation-name: animation4;
+    animation-delay: 1s;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+
+}
+
+#box{
+    position: absolute;
+    top: 12%;
+    left:45%;
+    animation-name: animation5;
+    animation-delay: 1s;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+
+}
+
+#camera{
+    position: absolute;
+    top: 50%;
+    left:38%;
+    animation-name: animation6;
+    animation-delay: 1s;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+
+}
+
+
+#clothes{
+    position: absolute;
+    top: 40%;
+    left:35%;
+    animation-name: animation7;
+    animation-delay: 1s;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+
+}
+
+#shoe{
+    position: absolute;
+    top: 22%;
+    left:35%;
+    animation-name: animation8;
+    animation-delay: 1s;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+
+}
+
+#bags{
+    position: absolute;
+    top: 40%;
+    left:35%;
+    animation-name: animation9;
+    animation-delay: 1s;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+
+}
+
+#fpot{
+    position: absolute;
+    top: 20%;
+    left:35%;
+    animation-name: animation10;
+    animation-delay: 1s;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+
+}
+#devices-screens{
+    max-width: 100%;
+    padding: 2.5% 3% 0 3% ;
+}
+#devices-screens img{
+    position: relative;
+    margin: 0 3%;
+    vertical-align: bottom;
+}
+#mac{
+    position: relative;
+
+}
+
+#tab{
+    position: relative;
+}
+
+#phone1{
+    position: relative;
+
+}
+
+#phone2{
+    position: relative;
+}
+
+#mp{
+    position: relative;
+    /* top: 185px; */
+    text-align: justify;
+    color: white;
+    font-size: 30px;
+    direction: rtl;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 2em;
+    /* word-spacing: 2px; */
+}
+
+#images-lap-visa-maps-{
+    width: 100%;
+    margin-top: 14%;
+}
+#sm-cards{
+    width: 62%;
+    margin-top: 5%;
+}
+#cards-apple-android{
+    margin: 4% 0 ;
+}
+#table-container{
+    margin: 7% auto;
+    position: relative;
+}  
+#global-compare-table-img{
+    max-width: 70%;
+    margin-top: 0%;
+}
+#table-title-glob{
+    margin: 2% 15% 5% auto;
+    font-size: 60px;
+    color: #ececec;
+    text-align: left;
+    width: 70%;
+    font-weight: bold;
+}
+#table-title{
+    margin: 8% 15% 5% auto;
+    font-size: 60px;
+    color: #ececec;
+    text-align: lefts;
+    width: 70%;
+    font-weight: bold;
+}
+#table-title-glob{
+    margin: 2% 15% 5% auto;
+    font-size: 60px;
+    color: #ececec;
+    text-align: left;
+    width: 70%;
+    font-weight: bold;
+}
+#table-title{
+    margin: 8% 15% 5% auto;
+    font-size: 60px;
+    color: #ececec;
+    text-align: left;
+    width: 70%;
+    font-weight: bold;
+}
+#main-feature-table-img{
+    max-width: 70%;
+}
+
+#big-map{
+    position: relative;
+    margin-top: -25%;
+    /* scroll-margin-top: 140px; */
+}
+
+#map-footer-div{
+    position: relative;
+    height: 1500px;
+    margin-top: 0%;
+    /* background: url('../img/Asset123213.png') no-repeat center; */
+    background-size: 100%;
+}
+#icons-left-down-map {
+    margin: -3% 0 2% 3%;
+}
+#icons-left-down-map a{
+    margin: 0 0.75% 0% 0.75%;
+}
+
+#footer-bg{
+    background: url('../img/Asset123213.png') no-repeat center;
+    background-position-y: 100%;
+    height: 1500px;
+}
+
+#mp-text{
+    position: relative;
+    text-align: justify;
+    color: #022e48;
+    font-size: 31px;
+    line-height: 2em;
+    /* word-spacing: 2px; */
+    direction: ltr;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#footer1{
+    position: relative;
+    margin-top: 12%;
+}
+#footer-icons img{
+    margin: 1%;
+}
+#p-container img{
+    max-width: 25%;
+}
+@media (max-width: 1700px) and (min-width: 1650px) {
+    .as-container{
+        background-position-y: 50px;
+        background-size: 110% auto;
+        width: 100%;
+        height: 6500px;
+    }
+    #devices-screens{
+        height: 700px;
+    }
+    #mac{
+        position: relative;left: 4% ;
+    }
+    #tab{
+        position: relative;left: 0%;
+    }
+    #phone1{
+       position: relative;left: -5%;
+    }
+    #phone2{
+        position: relative; top: -42%;left: 85%;
+    }
+    #map-footer-div{
+        position: relative;
+    }
+    #big-map{
+        position: relative;
+        top: 100px;
+    }
+}
+@media (max-width: 1650px) and (min-width: 1601px) {
+    #big-map {
+        margin-top: -45%;
+        margin-left: 10%;
+    }
+    nav div a span {
+        font-size: 25.5px;
+    }
+    .btn-style {
+        width: 130px;
+    }
+    #footer-bg {
+        height: 1250px;
+    }
+    #map-footer-div {
+        height: 1250px;
+    }
+    #left-header-img, #right-header-img {
+        width: 18%;
+    }
+    #header-img{
+        width: 64%;
+    }
+}
+
+@media (max-width: 1600px) and (min-width: 1400px) {
+    nav div a span {
+        font-size: 25.5px;
+    }
+    .btn-style {
+        width: 130px;
+    }
+    #devices-screens{
+        height: 1000px;
+    }
+    #mac{
+        position: relative;left: 22% ;
+    }
+    #tab{
+        position: relative;left: -40%;top: 50%;
+    }
+    #phone1{
+       position: relative;left: 0%;top: 20%;
+    }
+    #phone2{
+        position: relative; top: 20%;left: 20%;
+    }
+    #map-footer-div{
+        position: relative;top: -10%;
+    }
+    #map-footer-div{
+        height: 1000px;
+    }
+    #footer-bg{
+        height: 1200px;
+    }
+    #map-footer-div div img {
+        position: relative;top: -20%;
+    }
+    #big-map{
+        margin-top: -50%;
+    }
+    #p-container img{
+        max-width: 25%;
+    }
+}
+@media (max-width: 1600px) and (min-width: 1500px) {
+    .as-container{
+        background-size: 116%;
+        background-position-y: 8%;
+    }
+    #devices-screens{
+        height: 1000px;
+    }
+    #mac{
+        position: relative;left: 22% ;
+    }
+    #tab{
+        position: relative;left: -32%;top: 50%;
+    }
+    #phone1{
+       position: relative;left: -35%;top: 50%;
+    }
+    #phone2{
+        position: relative; left: 61%;top: 22%;
+    }
+    #table-title-glob {
+        /* margin: 2% 14% 2% auto; */
+        font-size: 40px;
+    }
+    #table-title{
+        font-size: 40px;
+    }
+    #sm-cards {
+        width: 75%;
+        margin-top: 4%;
+    }
+    #cards-under-laptop div div img {
+        position: relative;
+        width: 123%;
+        padding: 0px 28% 0 0%;
+    }
+}
+@media (max-width: 1600px) and (min-width: 1400px){
+    #footer1{
+        position: relative;
+        margin-top: 12%;
+        width: 30%;
+    }
+    #footer2{
+        position: relative;
+        margin-top: 3%;
+        width: 27%;
+    }
+    #footer-icons img{
+        margin-top: 2%;
+        width: 6%;
+    }
+    #footer6{
+        margin-top: 1%;
+        width: 18%;
+    }
+}
+@media (max-width: 1500px) and (min-width: 1400px) {
+    .as-container{
+        background-size: 128%;
+        background-position-y: -9%;
+        height: 6500px;
+    }
+    #big-map {
+        margin-top: -33%;
+    }
+    #footer1{
+        margin-top: 0%;
+    }
+    #devices-screens{
+        height: 1000px;
+    }
+    #mac{
+        position: relative;left: 22% ;top: auto;
+    }
+    #tab{
+        position: relative;left: -37%;top: 50%;
+    }
+    #phone1{
+       position: relative;left: 50%;top: 20%;
+    }
+    #phone2{
+        position: relative; left: 47%;top: 20%;
+    }
+    #table-title-glob {
+        margin: 2% 14% 2% auto;
+        font-size: 40px;
+    }
+    #table-title{
+        font-size: 40px;
+    }
+    #sm-cards {
+        width: 75%;
+        margin-top: 4%;
+    }
+    #cards-under-laptop div div img {
+        position: relative;
+        width: 123%;
+        padding: 0px 28% 0 0%;
+    }
+}
+@media (max-width: 1399px) and (min-width: 1236px) {
+    .about-us{
+        margin-top: 2%;
+    }
+    #AU{
+        margin-top: 0%;
+        padding-top: 24%;
+    }
+    #explain{
+        font-size: 165%;
+    }
+    .as-container{
+        height: 6800px;
+        background-size: 100% 95%;
+    }
+    #p-container{
+        width: 85%;
+        margin: 15% auto 0 auto;
+    }
+    #devices-screens{
+        height: 1000px;
+    }
+    #mac{
+        position: relative;left: 22% ;
+    }
+    #tab{
+        position: relative;left: -40%;top: 50%;
+    }
+    #phone1{
+       position: relative;left: 45%;top: 20%;
+    }
+    #phone2{
+        position: relative; top: 20%;left: 50%;
+    }
+    #map-footer-div{
+        position: relative;top: -10%;
+    }
+    #map-footer-div{
+        height: 1000px;
+    }
+    #footer-bg{
+        height: 1200px;
+    }
+    #map-footer-div div img {
+        position: relative;top: -20%;
+    }
+    #big-map{
+        margin-top: -50%;
+    }
+    #phone1 {
+        position: relative;
+        left: 53%;
+        top: 20%;
+    }
+    #mp{
+        font-size: 160%;
+    }
+    #laptop{
+        margin-top: 5%;
+    }
+    #cards-under-laptop{
+       width: 90%;
+    }
+    #sm-cards {
+        width: 90%;
+        margin-top: 5%;
+    }
+    #cards-under-laptop div div img{
+        position: relative;
+        width: 120%;
+        padding: 0 20%;
+    }
+    #table-title-glob {
+        margin: 18% 15% 5% auto;
+    }
+    #table-title {
+        margin: 16% 15% 5% auto;
+    }
+    #big-map {
+        margin-top: -30%;
+        left: 5%;
+    }
+}
+
+
+@media (max-width: 1235px) and (min-width: 1000px){
+    .about-us{
+        margin-top: 2%;
+    }
+    #AU{
+        margin-top: 0%;
+        padding-top: 28%;
+    }
+    #explain{
+        font-size: 165%;
+    }
+    .as-container{
+        height: 6800px;
+        background-size: 100% 95%;
+    }
+    #p-container{
+        width: 85%;
+        margin: 15% auto 0 auto;
+    }
+    #devices-screens{
+        height: 1000px;
+    }
+    #mac{
+        position: relative;left: 18% ;
+    }
+    #tab{
+        position: relative;left: 18%;top: 3%;
+    }
+    #phone1{
+       position: relative;left: 15%;top: 3%;
+    }
+    #phone2{
+        position: relative;left: 14%; top: 3%;
+    }
+    #map-footer-div{
+        position: relative;top: -10%;
+    }
+    #map-footer-div{
+        height: 1000px;
+    }
+    #footer-bg{
+        height: 1200px;
+    }
+    #map-footer-div div img {
+        position: relative;top: -20%;
+    }
+    #big-map {
+        margin-top: -35%;
+        left: 7%;
+    }
+
+    #mp{
+        font-size: 160%;
+    }
+    #laptop{
+        margin-top: 5%;
+        width: 80%;
+    }
+    #cards-under-laptop{
+       width: 92%;
+       position: relative;
+       left: -1%;
+    }
+    #sm-cards {
+        width: 90%;
+        margin-top: 5%;
+    }
+    #cards-under-laptop div div img{
+        position: relative;
+        width: 120%;
+        padding: 0 20%;
+    }
+    #table-title-glob {
+        margin: 18% 15% 5% auto;
+    }
+    #table-title {
+        margin: 16% 15% 5% auto;
+    }
+    #big-map {
+        margin-top: -30%;
+        left: 5%;
+    }
+
+}
+@media (max-width: 999px) and (min-width: 768px){
+
+    .about-us{
+        padding-top: -10%;
+        background: url('../img/Asset 39.png') no-repeat center;background-size: 100%;
+        width: 100%;
+        height: 1800px;
+    }
+    #AU{
+        margin-top: 0%;
+        padding-top: 155%;
+        width: 90%;
+    }
+
+    #explain{
+        font-size: 165%;
+    }
+    .as-container{
+        height: 6400px;
+        background-size: 100% 95%;
+    }
+    #p-container{
+        background: url('../img/Asset56.png') no-repeat center;
+        background-size: 90%;
+        margin: 10% auto 0 auto;
+        background-position-y: 50px;
+        height: 800px;
+        width: 90%;
+        position: relative;
+    }
+    #devices-screens{
+        height: 1000px;
+    }
+    #mac{
+        position: relative;left: 10% ;
+        width: 70%;
+    }
+    #tab{
+        position: relative;left: 10%;top: 3%;
+        width: 33%;
+    }
+    #phone1{
+       position: relative;left: 7%;top: 3%;
+       width: 15%;
+
+    }
+    #phone2{
+        position: relative;left: 7%; top: 3%;
+        width: 15%;
+
+    }
+    #map-footer-div{
+        position: relative;top: -10%;
+    }
+    #map-footer-div{
+        height: 1000px;
+    }
+    #footer-bg{
+        height: 1200px;
+    }
+    #map-footer-div div img {
+        position: relative;top: -20%;
+    }
+    #big-map {
+        margin-top: -35%;
+        left: 7%;
+    }
+
+    #mp{
+        font-size: 130%;
+        /* top: 0; */
+    }
+    #apple{
+        width: 70%;
+    }
+    #android{
+        width: 70%;
+    }
+    #laptop{
+        margin-top: 5%;
+        width: 80%;
+    }
+    #cards-under-laptop{
+       width: 92%;
+       position: relative;
+       left: -1%;
+    }
+    #sm-cards {
+        width: 90%;
+        margin-top: 5%;
+    }
+    #cards-under-laptop div div img{
+        position: relative;
+        width: 120%;
+        padding: 0 20%;
+    }
+    #table-title-glob {
+        margin: 18% 15% 5% auto;
+    }
+    #table-title {
+        margin: 16% 15% 5% auto;
+    }
+    #big-map {
+        margin-top: -30%;
+        left: 5%;
+    }
+    #global-compare-table-img {
+        max-width: 85%;
+        margin-top: 1%;
+    }
+    #main-feature-table-img{
+        max-width: 85%;
+        margin-top: 1%;
+    }
+    #table-title-glob{
+        font-size: xx-large;
+    }
+    #table-title{
+        font-size: xx-large;
+    }
+    #mp-text{
+        font-size: 150%;
+    }
+}
+
+
+@media (max-device-width: 767px) and (min-device-width: 740px) and (orientation: landscape) {
+    .about-us{
+        background: url('../img/Asset 39.png') no-repeat center;background-size: 100%;
+        width: 100%;
+        height: 900px;
+    }
+    #AU{
+        margin-top: 0%;
+        padding-top: 100%;
+        font-size: 130%;
+        width: 90%;
+    }
+
+    #explain{
+        font-size: 130%;
+    }
+    .as-container{
+        height: 5300px;
+        background-size: 100% 95%;
+    }
+    #p-container{
+        background: url('../img/Asset56.png') no-repeat center;
+        background-size: 90%;
+        margin: 10% auto 0 auto;
+        background-position-y: 50px;
+        height: 900px;
+        width: 90%;
+        position: relative;
+    }
+    #devices-screens{
+        height: 1000px;
+    }
+    #mac{
+        position: relative;left: 10% ;
+        width: 70%;
+    }
+    #tab{
+        position: relative;left: 10%;top: 3%;
+        width: 33%;
+    }
+    #phone1{
+       position: relative;left: 7%;top: 3%;
+       width: 15%;
+
+    }
+    #phone2{
+        position: relative;left: 7%; top: 3%;
+        width: 15%;
+
+    }
+    #map-footer-div{
+        position: relative;top: -10%;
+    }
+    #map-footer-div{
+        height: 1000px;
+    }
+    #footer-bg{
+        height: 1200px;
+    }
+    #map-footer-div div img {
+        position: relative;top: -20%;
+    }
+    #big-map {
+        margin-top: -35%;
+        left: 7%;
+    }
+
+    #mp{
+        font-size: 130%;
+        /* top: 0; */
+    }
+    #apple{
+        width: 70%;
+    }
+    #android{
+        width: 70%;
+    }
+    #laptop{
+        margin-top: 5%;
+        width: 80%;
+    }
+    #cards-under-laptop{
+       width: 92%;
+       position: relative;
+       left: -1%;
+    }
+    #sm-cards {
+        width: 90%;
+        margin-top: 5%;
+    }
+    #cards-under-laptop div div img{
+        position: relative;
+        width: 120%;
+        padding: 0 20%;
+    }
+    #table-title-glob {
+        margin: 18% 15% 5% auto;
+    }
+    #table-title {
+        margin: 16% 15% 5% auto;
+    }
+    #big-map {
+        margin-top: -30%;
+        left: 5%;
+    }
+    #global-compare-table-img {
+        max-width: 85%;
+        margin-top: 1%;
+    }
+    #main-feature-table-img{
+        max-width: 85%;
+        margin-top: 1%;
+    }
+    #table-title-glob{
+        font-size: xx-large;
+    }
+    #table-title{
+        font-size: xx-large;
+    }
+    #mp-text{
+        font-size: 145%;
+    }
+}
+@media (max-device-width: 1024px) and (min-device-width: 768px) and (orientation: portrait) {
+    .nav{
+        width: 100%;
+        margin: 5% 0 0 0;
+    }
+    .nav .btn{
+        font-size: larger;
+    }
+    .about-us{
+        background: url('../img/Asset 39.png') no-repeat center;background-size: 100%;
+        width: 100%;
+        height: 900px;
+    }
+    #AU{
+        margin-top: 0%;
+        padding-top: 100%;
+        font-size: 130%;
+        width: 90%;
+    }
+
+    #explain{
+        font-size: 130%;
+    }
+    .as-container{
+        height: 5300px;
+        background-size: 100% 95%;
+    }
+    #p-container{
+        background: url('../img/Asset56.png') no-repeat center;
+        background-size: 90%;
+        margin: 10% auto 0 auto;
+        background-position-y: 50px;
+        height: 900px;
+        width: 90%;
+        position: relative;
+    }
+    #devices-screens{
+        height: 1000px;
+    }
+    #mac{
+        position: relative;left: 10% ;
+        width: 70%;
+    }
+    #tab{
+        position: relative;left: 10%;top: 3%;
+        width: 33%;
+    }
+    #phone1{
+       position: relative;left: 7%;top: 3%;
+       width: 15%;
+
+    }
+    #phone2{
+        position: relative;left: 7%; top: 3%;
+        width: 15%;
+
+    }
+    #map-footer-div{
+        position: relative;top: -10%;
+    }
+    #map-footer-div{
+        height: 1000px;
+    }
+    #footer-bg{
+        height: 1200px;
+    }
+    #map-footer-div div img {
+        position: relative;top: -20%;
+    }
+    #big-map {
+        margin-top: -35%;
+        left: 7%;
+    }
+
+    #mp{
+        font-size: 130%;
+        /* top: 0; */
+    }
+    #apple{
+        width: 70%;
+    }
+    #android{
+        width: 70%;
+    }
+    #laptop{
+        margin-top: 5%;
+        width: 80%;
+    }
+    #cards-under-laptop{
+       width: 92%;
+       position: relative;
+       left: -1%;
+    }
+    #sm-cards {
+        width: 90%;
+        margin-top: 5%;
+    }
+    #cards-under-laptop div div img{
+        position: relative;
+        width: 120%;
+        padding: 0 20%;
+    }
+    #table-title-glob {
+        margin: 18% 15% 5% 0;
+    }
+    #table-title {
+        margin: 16% 15% 5% 0;
+    }
+    #big-map {
+        margin-top: -30%;
+        left: 5%;
+    }
+    #global-compare-table-img {
+        max-width: 85%;
+        margin-top: 1%;
+    }
+    #main-feature-table-img{
+        max-width: 85%;
+        margin-top: 1%;
+    }
+    #table-title-glob{
+        font-size: xx-large;
+    }
+    #table-title{
+        font-size: xx-large;
+    }
+    #mp-text{
+        font-size: 145%;
+    }
+}
+@media all and (max-width: 767px) and (min-width: 740px) { 
+    .about-us{
+        background: url('../img/aboutus-bg-moba.png') no-repeat center;background-size: 100%;
+        width: 100%;
+        height: 900px;
+    }
+    #AU{
+        margin-top: 0%;
+        padding-top: 100%;
+        font-size: 130%;
+        width: 90%;
+    }
+
+    #explain{
+        font-size: 130%;
+    }
+    .as-container{
+        height: 5300px;
+        background-size: 100% 95%;
+    }
+    #p-container{
+        background: url('../img/Asset56.png') no-repeat center;
+        background-size: 90%;
+        margin: 10% auto 0 auto;
+        background-position-y: 50px;
+        height: 900px;
+        width: 90%;
+        position: relative;
+    }
+    #devices-screens{
+        height: 1000px;
+    }
+    #mac{
+        position: relative;left: 10% ;
+        width: 70%;
+    }
+    #tab{
+        position: relative;left: 10%;top: 3%;
+        width: 33%;
+    }
+    #phone1{
+       position: relative;left: 7%;top: 3%;
+       width: 15%;
+
+    }
+    #phone2{
+        position: relative;left: 7%; top: 3%;
+        width: 15%;
+
+    }
+    #map-footer-div{
+        position: relative;top: -10%;
+    }
+    #map-footer-div{
+        height: 1000px;
+    }
+    #footer-bg{
+        height: 1200px;
+    }
+    #map-footer-div div img {
+        position: relative;top: -20%;
+    }
+    #big-map {
+        margin-top: -35%;
+        left: 7%;
+    }
+
+    #mp{
+        font-size: 130%;
+        /* top: 0; */
+    }
+    #apple{
+        width: 70%;
+    }
+    #android{
+        width: 70%;
+    }
+    #laptop{
+        margin-top: 5%;
+        width: 80%;
+    }
+    #cards-under-laptop{
+       width: 92%;
+       position: relative;
+       left: -1%;
+    }
+    #sm-cards {
+        width: 90%;
+        margin-top: 5%;
+    }
+    #cards-under-laptop div div img{
+        position: relative;
+        width: 120%;
+        padding: 0 20%;
+    }
+    #table-title-glob {
+        margin: 18% 15% 5% auto;
+    }
+    #table-title {
+        margin: 16% 15% 5% auto;
+    }
+    #big-map {
+        margin-top: -30%;
+        left: 5%;
+    }
+    #global-compare-table-img {
+        max-width: 85%;
+        margin-top: 1%;
+    }
+    #main-feature-table-img{
+        max-width: 85%;
+        margin-top: 1%;
+    }
+    #table-title-glob{
+        font-size: xx-large;
+    }
+    #table-title{
+        font-size: xx-large;
+    }
+    #mp-text{
+        font-size: 145%;
+    }
+    #icons-left-down-map a img{
+        width: 30px;
+    }
+
+}
+@media all and (max-width: 739px) and (min-width: 611px) {
+    .nav .btn{
+        width: 100px;
+    }
+    .about-us{
+        background: url('../img/aboutus-bg-moba.png') no-repeat center;background-size: 100%;
+        width: 100%;
+        height: 900px;
+    }
+    #AU{
+        margin-top: 0%;
+        padding-top: 113%;
+        font-size: 130%;
+        width: 90%;
+    }
+
+
+    #explain{
+        font-size: 130%;
+    }
+    .as-container{
+        height: 4600px;
+        background-size: 100% 95%;
+    }
+    #p-container{
+        background: url('../img/Asset56.png') no-repeat center;
+        background-size: 90%;
+        margin: 10% auto 0 auto;
+        background-position-y: 50px;
+        height: 700px;
+        width: 90%;
+        position: relative;
+    }
+    #devices-screens{
+        height: 700px;
+    }
+    #mac{
+        position: relative;left: 13% ;
+        width: 70%;
+    }
+    #tab{
+        position: relative;left: 10%;top: 3%;
+        width: 33%;
+    }
+    #phone1{
+       position: relative;left: 8%;top: 3%;
+       width: 15%;
+
+    }
+    #phone2{
+        position: relative;left: 7%; top: 3%;
+        width: 15%;
+
+    }
+    #map-footer-div{
+        position: relative;top: -10%;
+    }
+    #map-footer-div{
+        height: 1000px;
+    }
+    #footer-bg{
+        height: 1200px;
+    }
+    #map-footer-div div img {
+        position: relative;top: -20%;
+    }
+    #big-map {
+        margin-top: -35%;
+        left: 7%;
+    }
+
+    #mp{
+        margin-left: 15%;
+        margin-right: 15%;
+        font-size: 120%;
+        /* top: 0; */
+    }
+    #apple{
+        width: 70%;
+    }
+    #android{
+        width: 70%;
+    }
+    #laptop{
+        margin-top: 5%;
+        width: 80%;
+    }
+    #cards-under-laptop{
+       width: 92%;
+       position: relative;
+       left: -1%;
+    }
+    #sm-cards {
+        width: 90%;
+        margin-top: 5%;
+    }
+    #cards-under-laptop div div img{
+        position: relative;
+        width: 120%;
+        padding: 0 20%;
+    }
+    #table-title-glob {
+        margin: 18% 15% 5% auto;
+    }
+    #table-title {
+        margin: 16% 15% 5% auto;
+    }
+    #big-map {
+        margin-top: -30%;
+        left: 5%;
+    }
+    #global-compare-table-img {
+        max-width: 85%;
+        margin-top: 1%;
+    }
+    #main-feature-table-img{
+        max-width: 85%;
+        margin-top: 1%;
+    }
+    #table-title-glob{
+        font-size: xx-large;
+    }
+    #table-title{
+        font-size: xx-large;
+    }
+    #mp-text{
+        font-size: 110%;
+    }
+    #icons-left-down-map a img{
+        width: 30px;
+    }
+    #footer-bg {
+        height: 900px;
+        background-position-y: 68%;
+    }
+
+}
+
+@media all and (max-width: 610px) and (min-width: 560px){
+    .nav .btn{
+        width: 95px;
+    }
+    .about-us{
+        background: url('../img/aboutus-bg-moba.png') no-repeat center;background-size: 100%;
+        width: 100%;
+        height: 900px;
+    }
+    #AU{
+        margin-top: 0%;
+        padding-top: 119%;
+        font-size: 130%;
+        width: 80%;
+        margin: auto;
+    }
+
+
+    #explain{
+        font-size: 130%;
+    }
+    .as-container{
+        height: 4600px;
+        background-size: 100% 95%;
+    }
+    #p-container{
+        background: url('../img/Asset56.png') no-repeat center;
+        background-size: 90%;
+        margin: 10% auto 0 auto;
+        background-position-y: 50px;
+        height: 700px;
+        width: 90%;
+        position: relative;
+    }
+    #devices-screens{
+        height: 700px;
+    }
+    #mac{
+        position: relative;left: 13% ;
+        width: 70%;
+    }
+    #tab{
+        position: relative;left: 10%;top: 3%;
+        width: 33%;
+    }
+    #phone1{
+       position: relative;left: 8%;top: 3%;
+       width: 15%;
+
+    }
+    #phone2{
+        position: relative;left: 7%; top: 3%;
+        width: 15%;
+
+    }
+    #map-footer-div{
+        position: relative;top: -10%;
+    }
+    #map-footer-div{
+        height: 1000px;
+    }
+    #footer-bg{
+        height: 1200px;
+    }
+    #map-footer-div div img {
+        position: relative;top: -20%;
+    }
+    #big-map {
+        margin-top: -35%;
+        left: 7%;
+    }
+
+    #mp{
+        margin-left: 15%;
+        margin-right: 15%;
+        font-size: 120%;
+        /* top: 0; */
+    }
+    #apple{
+        width: 70%;
+    }
+    #android{
+        width: 70%;
+    }
+    #laptop{
+        margin-top: 5%;
+        width: 80%;
+    }
+    #cards-under-laptop{
+       width: 92%;
+       position: relative;
+       left: -1%;
+    }
+    #sm-cards {
+        width: 90%;
+        margin-top: 5%;
+    }
+    #cards-under-laptop div div img{
+        position: relative;
+        width: 120%;
+        padding: 0 20%;
+    }
+    #table-title-glob {
+        margin: 18% 15% 5% auto;
+    }
+    #table-title {
+        margin: 16% 15% 5% auto;
+    }
+    #big-map {
+        margin-top: -30%;
+        left: 5%;
+    }
+    #global-compare-table-img {
+        max-width: 85%;
+        margin-top: 1%;
+    }
+    #main-feature-table-img{
+        max-width: 85%;
+        margin-top: 1%;
+    }
+    #table-title-glob{
+        font-size: xx-large;
+    }
+    #table-title{
+        font-size: xx-large;
+    }
+    #mp-text{
+        font-size: 110%;
+    }
+    #icons-left-down-map a img{
+        width: 30px;
+    }
+    #footer-bg {
+        height: 900px;
+        background-position-y: 68%;
+    }
+}
+@media all and (max-width: 559px) and (min-width: 460px) {
+    .nav .btn{
+        width: 95%;
+        font-size: 90%;
+    }
+    #home{
+        position: relative;
+        top: 70px;
+    }
+    .about-us{
+        position: relative;top: -50px;
+        background: url('../img/aboutus-bg-moba.png') no-repeat center;background-size: 100%;
+        width: 100%;
+        height: 900px;
+    }
+    #AU{
+        margin-top: 0%;
+        padding-top: 135%;
+        font-size: 130%;
+        width: 80%;
+        margin: auto;
+    }
+
+
+    #explain{
+        font-size: 130%;
+        width: 80%;
+        margin: auto;
+    }
+    .as-container{
+        height: 4170px;
+        background-size: 100% 95%;
+    }
+    #p-container{
+        background: url('../img/Asset56.png') no-repeat center;
+        background-size: 90%;
+        margin: 10% auto 0 auto;
+        background-position-y: 50px;
+        height: 450px;
+        width: 90%;
+        position: relative;
+    }
+    #devices-screens{
+        height: 600px;
+    }
+    #mac{
+        position: relative;left: 13% ;
+        width: 70%;
+    }
+    #tab{
+        position: relative;left: 10%;top: 3%;
+        width: 33%;
+    }
+    #phone1{
+       position: relative;left: 8%;top: 3%;
+       width: 15%;
+
+    }
+    #phone2{
+        position: relative;left: 7%; top: 3%;
+        width: 15%;
+
+    }
+
+    #map-footer-div {
+        height: 1000px;
+        position: relative;
+        top: -20%;
+    }
+    #footer-bg{
+        height: 1200px;
+    }
+    #map-footer-div div img {
+        position: relative;top: -20%;
+    }
+    #big-map {
+        margin-top: -35%;
+        left: 7%;
+    }
+
+    #mp{
+        margin-left: 15%;
+        margin-right: 15%;
+        font-size: 120%;
+        /* top: 0; */
+    }
+    #apple{
+        width: 70%;
+    }
+    #android{
+        width: 70%;
+    }
+    #laptop{
+        margin-top: 5%;
+        width: 80%;
+    }
+    #cards-under-laptop{
+       width: 92%;
+       position: relative;
+       left: -1%;
+    }
+    #sm-cards {
+        width: 90%;
+        margin-top: 5%;
+    }
+    #cards-under-laptop div div img{
+        position: relative;
+        width: 120%;
+        padding: 0 20%;
+    }
+    #table-title-glob {
+        margin: 18% 15% 5% auto;
+    }
+    #table-title {
+        margin: 16% 15% 5% auto;
+    }
+    #big-map {
+        margin-top: -28%;
+        left: 8%;
+    }
+    #global-compare-table-img {
+        max-width: 85%;
+        margin-top: 1%;
+    }
+    #main-feature-table-img{
+        max-width: 85%;
+        margin-top: 1%;
+    }
+    #table-title-glob{
+        font-size: xx-large;
+    }
+    #table-title{
+        font-size: xx-large;
+    }
+    #mp-text{
+        font-size: 110%;
+    }
+    #icons-left-down-map a img{
+        width: 30px;
+    }
+    #footer-bg {
+        height: 900px;
+        background-position-y: 68%;
+    }
+    #footer1 {
+        margin-top: 12%;
+        width: 30%;
+    }
+}
+@media (max-width: 459px) and (min-width: 20px) {
+    .as-container{
+        background: url('../img/cliped-red-bg.png') no-repeat center;
+        background-size: 100%;
+        background-position-y: -300px;
+        width: 100%;
+        height: auto;
+        
+    }
+}
+@media (max-width: 459px) and (min-width: 20px) {
+    .nav{
+        width: 100%;
+    }
+    .nav .btn{
+        width: 90%;
+        font-size: 80%;
+    }
+    #home{
+        position: relative;
+        top: 50px;
+    }
+    .about-us{
+        position: relative;top: -50px;
+        background: url('../img/aboutus-bg-moba.png') no-repeat center;background-size: 100%;
+        width: 100%;
+        height: 900px;
+    }
+    #AU{
+        margin-top: 0%;
+        padding-top: 190%;
+        font-size: 100%;
+        width: 80%;
+        margin: auto;
+    }
+
+
+    #explain{
+        font-size: 100%;
+        width: 80%;
+        margin: auto;
+        margin-top: -10%;
+    }
+    .as-container{
+        height: 3650px;
+        background-size: 100% 95%;
+    }
+    #p-container{
+        background: url('../img/Asset56.png') no-repeat center;
+        background-size: 90%;
+        margin: 10% auto 0 auto;
+        background-position-y: 50px;
+        height: 450px;
+        width: 90%;
+        position: relative;
+    }
+    #devices-screens{
+        height: 500px;
+    }
+    #mac{
+        position: relative;left: 13% ;
+        width: 70%;
+    }
+    #tab{
+        position: relative;left: 10%;top: 3%;
+        width: 33%;
+    }
+    #phone1{
+       position: relative;left: 8%;top: 3%;
+       width: 15%;
+
+    }
+    #phone2{
+        position: relative;left: 7%; top: 3%;
+        width: 15%;
+
+    }
+
+    #map-footer-div {
+        height: 1000px;
+        position: relative;
+        top: -20%;
+    }
+
+    #map-footer-div div img {
+        position: relative;top: -20%;
+    }
+    #big-map {
+        margin-top: -10%;
+        left: 7%;
+    }
+
+    #mp{
+        margin-left: 15%;
+        margin-right: 15%;
+        font-size: 100%;
+        /* top: 0; */
+    }
+
+    #apple{
+        width: 70%;
+    }
+    #android{
+        width: 70%;
+    }
+    #laptop{
+        margin-top: 5%;
+        width: 80%;
+    }
+    #cards-under-laptop{
+       width: 92%;
+       position: relative;
+       left: -1%;
+    }
+    #sm-cards {
+        width: 90%;
+        margin-top: 5%;
+    }
+    #cards-under-laptop div div img{
+        position: relative;
+        width: 120%;
+        padding: 0 20%;
+    }
+    #table-title-glob {
+        margin: 18% 15% 5% auto;
+    }
+    #table-title {
+        margin: 16% 15% 5% auto;
+    }
+    #big-map {
+        margin-top: 20%;
+        left: 2%;
+    }
+    #global-compare-table-img {
+        max-width: 85%;
+        margin-top: 1%;
+    }
+    #main-feature-table-img{
+        max-width: 85%;
+        margin-top: 1%;
+    }
+    #table-title-glob{
+        font-size: x-large;
+    }
+    #table-title{
+        font-size: x-large;
+    }
+    #mp-text{
+        font-size: 90%;
+    }
+    #icons-left-down-map a img{
+        width: 30px;
+    }
+    #footer-bg {
+        height: 1150px;
+        background-position-y: 68%;
+    }
+    #footer1 {
+        margin-top: 12%;
+        width: 30%;
+    }
+}
+@media (max-width: 420px) and (min-width: 371px) {
+    .nav .btn{
+        font-size: 70%;
+    }
+}
+@media (max-width: 395px) and (min-width: 380px) {
+    .nav .btn{
+        font-size: 65%;
+    }
+}
+@media (max-width: 379px) and (min-width: 350px) {
+    .nav .btn{
+        font-size: 55%;
+    }
+}
+@media (max-width: 349px) and (min-width: 335px) {
+    .nav .btn{
+        font-size: 50%;
+    }
+}
+@media (max-width: 334px) and (min-width: 321px) {
+    .nav .btn{
+        font-size: 45%;
+    }
+}
+@media (max-width: 320px) and (min-width: 307px) {
+    .nav .btn{
+        font-size: 40%;
+    }
+}
+@media (max-width: 307px) and (min-width: 295px) {
+    .nav .btn{
+        font-size: 35%;
+    }
+}
+@media (max-width: 294px) and (min-width: 3px) {
+    .nav .btn{
+        margin: 5%;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait){}
+
+
+
+
+:root
+{
+    --dark-color: #022e48;
+}
+.navbar .navbar-nav .nav-link
+{
+    background-color: #022e48;
+    color: white;
+}
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover
+{
+    color : #022e48 ;
+    background-color: whitesmoke;
+}
+.navbar .navbar-toggler
+{
+    color: white;
+    font-size: 25px;
+    border-color: white;
+}
+.navbar .navbar-toggler:focus
+{
+    box-shadow: none;
+}
+
+.w20
+{
+    width: 20%;
+    padding-left: 1.25%;
+    padding-right:1.25%;
+}
+
+.p-x-0
+{
+    padding-left: 0;
+    padding-right: 0;
+}
+.nav-link
+{
+    border-radius: 1rem;
+}
+.left-item
+{
+    width: 20%;
+    padding-right: 2.5%;
+    padding-left: 0%;
+}
+.right-item
+{
+    width: 20%;
+    padding-right: 0%;
+    padding-left: 2.5%;
+}
+.landing-img
+{
+margin-top: 8%;
+}
+.img-text
+{
+    height: 1200px;
+    background: url('../img/aboutus-bg-desk.png') no-repeat center;
+    background-size: 100% 100%;
+    margin: 5% 0 0 0;
+    padding: 0;
+    color: #022e48;
+}
+
+.text-about
+{
+	 
+    width: 34%;
+    float: right;
+    direction: rtl;
+    height: 100%;
+    padding: 13% 4% 0 0;
+    margin: 0;
+    font-size: 180%;
+    /* word-spacing: 0.1rem; */
+    text-align: justify;
+    color: #022e48;
+	 padding-top: 0;
+    margin-top: 14%;
+    background: rgb(211 210 210 / 75%);
+    height: auto;
+
+}
+#mobile-img-text
+{
+    display: none;
+}
+.text-about-mob
+{
+    float: right;
+    direction: rtl;
+    margin-top: 2% ;
+    font-size: 180%;
+    /* word-spacing: 0.4rem; */
+    text-align: justify;
+    color: #022e48;
+}
+@media (min-width: 1600px) {
+    
+}
+@media (max-width: 1200px) {
+    #destop-img-text
+    {
+        display: none;
+        width: 1px;
+    }
+    #mobile-img-text
+    {
+        display: block;
+    }
+}
+.test{
+
+    position: absolute;
+    left: 0;
+    right:0;
+    bottom: 0;
+    /* top: 0 ; */
+    margin: auto;
+}
+
+@media (min-width:1601px) {
+    #devices-large
+    {
+        height: 575px;
+        display: block;
+    }
+    #devices-small
+    {
+        display: none;
+        
+    }
+    #hidden-laptop
+    {
+        display: none !important;
+        height: 0;
+        width: 0;
+    }
+    #hidden-laptop img
+    {
+        display: none !important;
+        width: 1px;
+    }
+    .test-laptop
+    {
+        margin-left: 5%;
+    }
+    .test-tab
+    {
+        margin-left: 50%;
+    }
+    .test-phone1
+    {
+        margin-left: 73%;
+        /* width: 8%; */
+    }
+    .test-phone2 /* asad*/
+    {
+        margin-right: 5%;
+        width: 7.4%;
+    }
+
+}
+@media (max-width:1601px) and (min-width:200px) {
+    #devices-small
+    {
+        height: 800px;
+        display: block;
+        padding-top: 3%;
+    }
+    #hide-div-by0height
+    {
+        display: none;
+        height: 1px;
+        height: 2px;
+    }
+    #hidden-laptop
+    {
+        display: block;
+    }
+    #devices-large
+    {
+        visibility:hidden;
+        height: 1px;
+        width: 1px;
+        display: none;
+
+    }
+    .test-laptop
+    {
+        position: relative;
+        margin: 0 auto;
+        /* bottom: 600px; */
+    }
+    .test-tab
+    {
+        position: relative;
+        /* margin-left: 21%; */
+    }
+    .test-phone1
+    {
+        position: relative;
+        /* margin-left: 51.5%; */
+    }
+    .test-phone2
+    {
+        width: 10%;
+        position: relative;
+        /* margin-right: 21.5%; */
+    }
+
+}
+.p-b-0
+{
+    padding-bottom: 0;
+}
+#table-title-glob, #table-title 
+{
+    text-align: left;
+}
+
+/* ********************************************** */
+#cards-payment
+{
+    margin-top: 4%;
+    vertical-align: middle;
+    width: 100%;
+}
+
+#alang
+{
+    /* padding: auto 6% auto 0; */
+    /* margin: 5%; */
+    /* width: 94%; */
+    vertical-align: middle;
+    width: 100%;
+    padding: 10% 10 10% 0%;
+}
+#agmaps, #avisa, #aexp, #amcard
+{
+    /* padding: auto 3%; */
+    /* width: 94%; */
+    vertical-align: middle;
+    width: 100%;
+    padding: 10%;
+}
+#aeftr
+{
+    /* padding: auto 0 auto 6%; */
+    /* width: 94%; */
+    vertical-align: middle;
+    width: 100%;
+    padding: 10% 0% 10% 10%;
+}
+.card1, .card2, .card3
+{
+    align-self: center;
+}
+/* ******************************************** */
+
+#footer6{
+
+    padding-bottom: 3%;
+}
+.icons-under-map
+{
+    width: 30%;
+}
+
+@media (min-width:901px)
+{
+    #contact-icon
+    {
+        justify-content: start !important;
+        margin-top: -5%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+        width: 95%;
+    }
+    #contact-icon div
+    {
+        padding: 0%;
+    }
+    #contact-icon a
+    {
+        margin: 0;
+        padding: auto 2%;
+    }
+    .w10
+    {
+        width: 7%;
+    }
+
+}
+@media (max-width:901px) {
+    #contact-icon
+    {
+        align-content: center;
+        justify-content: center;
+        margin-top: 3%;
+        margin-bottom: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .w10
+    {
+        justify-content: center;
+        width: 100%;
+        padding: 0%;
+    }
+    .w10 img
+    {
+        justify-content: center;
+        width: 40%;
+        padding: 0%;
+    }
+}
+#aaafooter1
+{
+    margin-top: 10%;
+}
+.bg-footer
+{
+    background: url('../img/Asset123213.png') no-repeat center;
+    background-position-y: 65%;
+}
+
+#footer-icons img
+{
+    width: 100%;
+    padding:auto 5% auto 5% ;
+}
+
+#abjd-store
+{
+    margin-top: 5%;
+    margin-bottom: 9%;
+}
+
+.ls-container
+{
+    background: url('../img/redbg-mob.png') no-repeat center;
+    background: url('../img/Asset\ 421.png');
+
+    background: url('../img/bg_red1.png');
+    background-size: 100% 100% ;
+    
+}
+@media (min-width:1870px)
+{
+    .ls-container
+    {
+        background: url('../img/redbg-mob.png') no-repeat center;
+
+        background-size: 100% 100% ;
+        padding-bottom: 5%;
+        height: 6250px;
+    }
+
+    .bg-footer
+    {
+    background-position-y: 70%;
+    }
+    #mp
+    {
+        margin-top: 5%;
+        margin-bottom: -5%;
+        font-size: 190%;
+    }
+}
+
+@media (max-width:1870px) and (min-width: 1599px)
+{
+    .text-about
+    {
+        font-size: 167%;
+    }
+    #abjd-store
+    {
+        margin-bottom: 2%;
+    }
+    #explain
+    {
+        margin-top: 0%;
+        font-size: 167%;
+    }
+    .ls-container
+    {
+        /* background-color: black; */
+        background: url('../img/redbg-mob.png') no-repeat center;
+        /* background: url('../img/Asset\ 421.png') no-repeat center; */
+        /* background: url('../img/cliped-red-bg.png') no-repeat center; */
+        /* background: url('../img/bg_red1.png') no-repeat center; */
+        background-size: 100% 100% ;
+        padding-bottom: 9%;
+        }
+    #main-feature-table-img
+    {
+    padding-bottom: 8%;
+    }   
+    .bg-footer
+    {
+    background-position-y: 70%;
+    }
+    #mp
+    {
+        margin-top: 5%;
+        margin-bottom: -5%;
+        font-size: 167%;
+    }
+    #p-container
+    {
+        margin-bottom: 5%;
+    }
+}
+
+@media (max-width:1599px) and (min-width:1400px)
+{
+    .text-about
+    {
+        font-size: 160%;
+    }
+    #abjd-store
+    {
+        margin-bottom: 2%;
+    }
+    #explain
+    {
+        margin-top: 0%;
+        font-size: 160%;
+    }
+    .ls-container
+    {
+        /* background-color: black; */
+        background: url('../img/redbg-mob.png') no-repeat center;
+        /* background: url('../img/Asset\ 421.png') no-repeat center; */
+        /* background: url('../img/cliped-red-bg.png') no-repeat center; */
+        /* background: url('../img/bg_red1.png') no-repeat center; */
+        background-size: 100% 100% ;
+        padding-bottom: 9%;
+        }
+    #main-feature-table-img
+    {
+    padding-bottom: 8%;
+    }   
+    .bg-footer
+    {
+    background-position-y: 70%;
+    }
+    #mp
+    {
+        margin-top: 5%;
+        margin-bottom: -5%;
+        font-size: 160%;
+    }
+    #p-container
+    {
+        margin-bottom: 5%;
+    }
+}
+@media (max-width:1400px) and (min-width:1199px)
+{
+    .text-about
+    {
+        font-size: 135%;
+    }
+    #abjd-store
+    {
+        margin-bottom: 2%;
+    }
+    #explain
+    {
+        margin-top: 0%;
+        font-size: 150%;
+    }
+    .ls-container
+    {
+        /* background-color: black; */
+        /* background: url('../img/redbg2.png') no-repeat center; */
+        /* background: url('../img/redbg-mob.png') no-repeat center; */
+        /* background: url('../img/Asset\ 421.png') no-repeat center; */
+        background: url('../img/cliped-red-bg.png') no-repeat center;
+        /* background: url('../img/bg_red1.png') no-repeat center; */
+        background-size: 100% 100% ;
+        padding-bottom: 5%;
+        }
+        #table-title-glob, #table-title
+    {
+        font-size: 40px;
+    }   
+    .bg-footer
+    {
+    background-position-y: 70%;
+    }
+    #mp
+    {
+        margin-top: 0%;
+        margin-bottom: -5%;
+        font-size: 150%;
+    }
+    #p-container
+    {
+        margin-bottom: 5%;
+    }
+}
+@media (max-width:1199px) and (min-width:993px)
+{
+
+    #abjd-store
+    {
+        padding-top: 8%;
+        margin-bottom: 2%;
+    }
+    #devices-small {
+        height: 600px;
+    }
+    #explain
+    {
+        margin-top: 0%;
+        /* font-size: 150%; */
+    }
+    .ls-container
+    {
+        /* background-color: black; */
+        /* background: url('../img/redbg2.png') no-repeat center; */
+        /* background: url('../img/redbg-mob.png') no-repeat center; */
+        /* background: url('../img/Asset\ 421.png') no-repeat center; */
+        background: url('../img/cliped-red-bg.png') no-repeat center;
+        /* background: url('../img/bg_red1.png') no-repeat center; */
+        background-size: 100% 100% ;
+        padding-bottom: 5%;
+        }
+        #table-title-glob, #table-title
+    {
+        font-size: 35px;
+    }   
+
+    #mp
+    {
+        margin-top: 0%;
+        margin-bottom: -5%;
+        font-size: 150%;
+    }
+    #p-container
+    {
+        margin-bottom: 5%;
+    }
+}
+
+@media (max-width:993px) and (min-width:768px)
+{
+
+    #abjd-store
+    {
+        padding-top: 8%;
+        margin-bottom: 2%;
+    }
+    #devices-small {
+        height: 450px;
+    }
+    #p-container
+    {
+        height: 600px;
+    }
+    #explain
+    {
+        margin-top: 0%;
+        /* font-size: 150%; */
+    }
+    .ls-container
+    {
+        /* background-color: black; */
+        /* background: url('../img/redbg2.png') no-repeat center; */
+        /* background: url('../img/redbg-mob.png') no-repeat center; */
+        /* background: url('../img/Asset\ 421.png') no-repeat center; */
+        background: url('../img/cliped-red-bg.png') no-repeat center;
+        /* background: url('../img/bg_red1.png') no-repeat center; */
+        background-size: 100% 100% ;
+        padding-bottom: 9%;
+        }
+        #table-title-glob, #table-title
+    {
+        width: 85%;
+        margin: 7% auto 4% auto;
+        font-size: 30px;
+    }   
+    #mp
+    {
+        margin-top: 0%;
+        margin-bottom: -5%;
+        font-size: 150%;
+    }
+    #p-container
+    {
+        margin-bottom: 5%;
+    }
+}
+@media (max-width:768px) and (min-width:475px)
+{
+    .text-about, .text-about-mob
+    {
+        font-size: 100%;
+    }
+    #abjd-store
+    {
+        padding-top: 8%;
+        margin-bottom: 2%;
+    }
+    #devices-small {
+        height: 300px;
+    }
+    #p-container
+    {
+        height: 550px;
+    }
+    #explain
+    {
+        margin-top: 0%;
+        font-size: 100%;
+    }
+    .ls-container
+    {
+        /* background-color: black; */
+        /* background: url('../img/redbg2.png') no-repeat center; */
+        /* background: url('../img/redbg-mob.png') no-repeat center; */
+        /* background: url('../img/Asset\ 421.png') no-repeat center; */
+        background: url('../img/cliped-red-bg.png') no-repeat center;
+        /* background: url('../img/bg_red1.png') no-repeat center; */
+        background-size: 100% 100% ;
+        padding-bottom: 9%;
+        }
+        #table-title-glob, #table-title
+    {
+        width: 85%;
+        margin: 7% auto 4% auto;
+        font-size: 20px;
+    }   
+
+    #mp
+    {
+        margin-top: 0%;
+        margin-bottom: -5%;
+        font-size: 100%;
+    }
+    #p-container
+    {
+        margin-bottom: 5%;
+    }
+    #mp
+    {
+        margin-top: 13%;
+    }
+}
+
+@media (max-width:475px)
+{
+    .text-about, .text-about-mob
+    {
+        font-size: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #abjd-store
+    {
+        padding-top: 8%;
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    #devices-small {
+        height: 250px;
+    }
+    #p-container
+    {
+        height: 300px;
+    }
+    #explain
+    {
+        margin-top: 0%;
+        font-size: 100%;
+    }
+    .ls-container
+    {
+        /* background-color: black; */
+        /* background: url('../img/redbg2.png') no-repeat center; */
+        /* background: url('../img/redbg-mob.png') no-repeat center; */
+        /* background: url('../img/Asset\ 421.png') no-repeat center; */
+        background: url('../img/cliped-red-bg.png') no-repeat center;
+        /* background: url('../img/bg_red1.png') no-repeat center; */
+        background-size: 100% 100% ;
+        padding-bottom: 17%;
+        }
+        #table-title-glob, #table-title
+    {
+        width: 85%;
+        margin: 7% auto 4% auto;
+        font-size: 15px;
+    }   
+
+    #mp
+    {
+        margin-top: 0%;
+        margin-bottom: -5%;
+        font-size: 100%;
+    }
+    #p-container
+    {
+        margin-bottom: 5%;
+    }
+}
+@media (max-width:1240px) and (min-width:1200px)
+{
+    nav a
+    {
+        font-size: medium;
+    }
+}
+@media (min-width:1200px) and (max-width:1300px) {
+    .text-about
+    {
+        font-size: 143.2%;
+    }
+}
+@media (min-width:1300px) and (max-width:1400px) {
+    .text-about
+    {
+        font-size: 150%;
+    }
+}
+@media (min-width:1400px) and (max-width:1500px) {
+    .text-about
+    {
+        font-size: 150%;
+    }
+}
+@media (min-width:1500px) and (max-width:1600px) {
+    .text-about
+    {
+        font-size: 160%;
+    }
+}
+@media (min-width:1600px) and (max-width:1700px) {
+    .text-about
+    {
+        font-size: 160%;
+    }
+}
+@media (min-width:1700px) and (max-width:1800px) {
+    .text-about
+    {
+        font-size: 165%;
+    }
+}
+@media (min-width:1800px)  {
+    .text-about
+    {
+        font-size: 170%;
+        /* line-height: 2.2rem; */
+        margin-right: 2.5%;
+    }
+}
+/* #language-en
+{
+position: absolute;
+top: 10%;
+right: 4%;
+color: white;
+background-color: #022e48;
+} */
+/* #language-en.active,
+#language-en:hover
+
+{
+    background-color: #022e48;
+    color: #ececec;
+} */
+@media (max-width:992px) and (min-width: 100px) {
+    .nav-item
+    {
+        width: 100%;
+        height: 50px;
+        padding: 3% auto;
+    }
+}
+#language-en
+{
+    background-color: #ececec;
+    color: #022e48;
+}
+#language-en.active,
+#language-en:hover
+
+{
+    background-color: #022e48;
+    color: #ececec;
+}
+/* #footer-footer
+{
+    background-color: black;
+} */
+.icons-foot
+{
+    padding: 0 6%;
+    padding-top: 0%;
+}
+@media (max-width:1000px) {
+    #footer6a
+    {
+        margin-top: 0%;
+        padding-top: 0%;
+    }
+    }
+    #abjd-store
+    {
+        margin-bottom: 0%;
+    }
+    #table-title-glob
+    {
+        margin-top: 10% !important;
+        margin: bottom 0% !important;
+    }
+    #table-title
+    {
+        margin-top: 4%;
+    }img {
+        margin: auto;
+}
+@media (max-width:1000px) {
+        #lang
+    {
+        visibility: hidden;
+        display: none;
+    }
+    li nav-link
+    {
+        border-radius: 0%;
+    }
+    #lang-togg
+{
+    visibility: visible;
+    display: block;
+    /* font-size: 10px; */
+    /* background-color: #022e48; */
+    /* color: #ececec; */
+    /* margin: 3% 0; */
+    /* padding: 0% 2% 1% 2% ; */
+    /* border-radius: 7px; */
+    position: relative;
+    font-family: icomoon !important;
+    width: 30.5px;
+    height: 37.5px;
+    color: #6c757d;
+    margin-right: 0;
+}
+#lang-togg i{
+    font-style: normal;
+    text-align: center;
+    font-size: 37.5px;
+    line-height: 37.5px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    position: absolute;
+
+}
+#lang-togg i::before
+{
+    content: "\e903";
+}
+    #lang-togg.active,
+    #lang-togg:hover,
+    #lang-togg:target
+
+    {
+        visibility: visible;
+        display: block;
+
+
+    }
+
+
+}
+@media (min-width:1000px) 
+{
+    #lang-togg
+    {
+        visibility: hidden;
+        display: none;
+
+
+    }
+
+}
+#last
+{
+    margin-top: 4%;
+    padding-bottom: 0;
+}
+.icon
+{
+    width: 15%;
+}
+.icon-1
+{
+    padding-left: 0%; padding-right: 12%;
+}
+.icon-2
+{
+    padding-left: 6%; padding-right: 6%;
+}
+.icon-3
+{
+    padding-left: 12%; padding-right: 0%; 
+}
+@media (max-width: 1024px)
+{
+    .icon
+{
+    width: 20%;
+}
+}
+@media (max-width: 768px)
+{
+    .icon
+{
+    width: 20%;
+}
+}
+@media (max-width: 1000px) {
+    .w20
+    {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0%;
+    }
+    .left-item
+    {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0%;
+    }
+    .right-item
+    {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0%;
+    }
+}
+@media (max-width:1200px) and (min-width:1000px) {
+    #nav-width 
+    {
+        width: 90%;
+        margin: auto;
+        padding: auto;
+    }
+    li 
+    {
+        width: 140px;
+    }
+}
+@media (max-width:992px) {
+    .navbar
+    {
+        padding-top: 0%;
+        margin-top: 0%;
+    }
+
+    /* #lang-togg img
+    {
+        width: 100%;
+        height: 85%;
+
+    } */
+    .navbar-toggler {
+        padding: 0.25rem 0.75rem 0.25rem 0;
+        font-size: 1.25rem;
+        line-height: 1;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: 0.25rem;
+        transition: box-shadow .15s ease-in-out;
+    }
+}
+
+@media (max-width:1250px) and (min-width:992px) {
+    nav 
+    {
+        font-size: 11px;
+
+    }
+    .w20
+    {
+        width: 20%;
+        padding-left: 1.25%;
+        padding-right:1.25%;
+    }
+    
+    .p-x-0
+    {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .nav-link
+    {   
+        width: 100%;
+        border-radius: 1rem;
+    }
+    .left-item
+    {
+        width: 20%;
+        padding-right: 2.5%;
+        padding-left: 0%; 
+        /* font-size: 20px; */
+     }/*
+    .right-item
+    {
+        width: 20%;
+        padding-right: 0%;
+        padding-left: 2.5%; */
+    
+    /* .right-item li
+    {
+        width: 100px;
+        font-size: small;
+        padding: 0 ;
+    }
+    .right-item li a
+    {
+        font-size: 10px !important;
+        padding: 0%;
+    } */
+}
+
+/* ********************* footer space edit ************* start ************ */
+@media (min-width:1400px) {
+    .footer-space
+    {
+        padding-bottom: 15px !important;
+    }
+}
+@media (max-width:1400px) and (min-width:1200px) {
+    .footer-space
+    {
+        padding-bottom: 10px !important;
+    }
+}
+@media (max-width:1200px) and (min-width:992px) {
+    .footer-space
+    {
+        padding-bottom: 10px !important;
+    }
+}
+@media (max-width:992px) and (min-width:768px) {
+    .footer-space
+    {
+        padding-bottom: 5px !important;
+    }
+}
+@media (max-width:768px) and (min-width:576px) {
+    .footer-space
+    {
+        padding-bottom: 5px !important;
+    }
+}
+@media (max-width:576px)  {
+    .footer-space
+    {
+        margin: 0%;
+        padding-bottom: 0 !important;
+    }
+}
+/* ********************* footer space edit ************* end ************ */
+/* ************** margin  edit start *****************  */
+.text-about-mob, .text-about, #explain, #mp, #mp-text
+{
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.text-about{
+    padding-left: 1% !important;
+    padding-right: 1% !important;
+}
+#explain
+{
+    width: auto !important;
+}
+ /* ************** margin  edit end *****************  */
+ /* ******************** font-size edite ****************** start ***************************** */
+ @media  (min-width:1600px) {
+    .text-about-mob, .text-about, #explain, #mp, #mp-text
+    {
+       font-size: 30px !important;
+    }
+}
+@media (max-width:1600px) and (min-width:1400px) { 
+    .text-about-mob, .text-about, #explain, #mp, #mp-text
+    {
+        font-size: 25px !important;
+    }
+}
+@media (max-width:1400px) and (min-width:1200px) {
+    .text-about-mob, .text-about, #explain, #mp, #mp-text
+    {
+        font-size: larger !important;
+    }
+}
+@media (max-width:1200px) and (min-width:992px) {
+    .text-about-mob, .text-about, #explain, #mp, #mp-text
+    {
+        font-size: larger !important;
+    }
+}
+@media (max-width:992px) and (min-width:768px) {
+    .text-about-mob, .text-about, #explain, #mp, #mp-text
+    {
+        font-size: large !important;
+    }
+}
+@media (max-width:768px) and (min-width:576px) {
+    .text-about-mob, .text-about, #explain, #mp, #mp-text
+    {
+        font-size: 22px !important;
+    }
+}
+@media (max-width:576px)  {
+    .text-about-mob, .text-about, #explain, #mp, #mp-text
+    {
+        font-size: 22px !important;
+        word-spacing: 0%;
+    }
+}
+
+@media (max-width:400px) and (min-width:2px) {
+    #mp
+    {
+        color: #022e48 !important;
+    }
+}
+@media (max-width:1400px) and (min-width:400px) {
+    #mp
+    {
+        color: #022e48 !important;
+    }
+}
+@media (max-width:1870px) and (min-width:1400px) {
+    #mp
+    {
+        color: white !important;
+    }
+}
+@media  (min-width:1870px) {
+    #mp
+    {
+        color: #022e48 !important;
+    }
+}
+  /* ******************** font-size edite ****************** end ***************************** */
+  /* ******************** stroke or shadow edite ****************** start ***************************** */
+ #dx {
+    font-weight: 580;
+    color: #022e48;
+    /* text-shadow: 0.5px 0.9px #ececec; */
+    -webkit-text-stroke: 0.03px white;
+}
+    /* ******************** stroke or shadow edite ****************** end ***************************** */
+     /*************************** edite image height *************************************************************************************/
+     @media  (min-width:1797px) {
+        .img-text
+        {
+            height: 1200px;
+            line-height: 2 !important;
+        }
+    }
+     @media (max-width:1797px) and (min-width:1740px) {
+        .img-text
+        {
+            height: 1220px;
+            line-height: 1.8;
+        }
+    }
+     @media (max-width:1740px) and (min-width:1600px) {
+        .img-text
+        {
+            height: 1220px;
+            line-height: 1.75;
+        }
+    }
+     @media (max-width:1600px) and (min-width:1558px) {
+        .img-text
+        {
+            height: 1000px;
+            line-height: 2;
+        }
+    }
+
+
+     @media (max-width:1558px) and (min-width:1497px) {
+        .img-text
+        {
+            height: 1000px;
+            line-height: 1.9;
+        }
+    }
+    @media (max-width:1497px) and (min-width:1400px) {
+        .img-text
+        {
+            height: 900px;
+            line-height: 1.5;
+        }
+    }
+    @media (max-width:1400px) and (min-width:1200px) {
+        .img-text
+        {
+            height: 900px;
+        }
+        #dx
+        {
+            line-height: 2.5;
+        }
+    }
+    /* ****************************** stroke all text ************************ start ****************** */
+.text-about-mob, .text-about
+{
+  font-weight: 599;
+    color: #022e48;
+    /* text-shadow: 0.5px 0.5px white; */
+    -webkit-text-stroke: 0.01px #edeec6;
+
+}
+
+/* ****************************** stroke all text ************************ end ****************** */
+@media (max-width:1400px) and (min-width:1200px) {
+
+    #asn
+    {
+        width: 100px;
+    }
+}
+/* ********************************* *************************************************** */
+@media (max-width:500px) and ( min-width:300px) {
+    #devices-small
+    {
+        height: 150px !important;
+        margin-bottom: 67px;
+    }
+    #payment-img-div
+    {
+        margin-top: 10% !important;
+    }
+}
+
+/* ********************* edit the margin after devices ***************************** start ********************************************** */
+@media (max-width: 500px ) and ( min-width: 375px) 
+{
+    #mp
+    {
+        margin-top: 6rem !important;
+    }
+}
+/* ********************* edit the margin after devices ***************************** end ********************************************** */
+/* ********************** edit the logo size  **************       start           ********************************************************* */
+@media (max-width: 1000px ) and ( min-width: 800px) 
+{
+    #abjd-store img
+    {
+        width: 20% !important;
+    }
+}
+@media (max-width: 800px ) and ( min-width: 600px) 
+{
+    #abjd-store img
+    {
+        width: 25% !important;
+    }
+}
+@media (max-width: 600px ) and ( min-width: 200px) 
+{
+    #abjd-store img
+    {
+        width: 33% !important;
+    }
+}
+/* ********************** edit the logo size  **************        end          ********************************************************* */
+/* ********************** edit space under global table  **************        start          ********************************************************* */
+@media  ( min-width: 993px) 
+{
+    #global-compare-table-img
+    {
+        margin-bottom: 6%;
+    }
+}
+
+@media (max-width: 993px ) and ( min-width: 200px) 
+{
+    #global-compare-table-img
+    {
+        margin-bottom: 7.5%;
+    }
+}
+
+
+/* ********************** edit space under global table  **************        end          ********************************************************* */
+/* ********************** edit footer logos  **************        start          ********************************************************* */
+@media (max-width: 1100px ) and ( min-width: 900px) 
+{
+    .icon
+    {
+        width: 20% !important;
+    }
+    .icon img
+    {
+        margin-bottom: 1rem !important;
+    }
+    #last
+    {
+        margin-top: 3rem !important;
+    }
+}
+
+
+@media (max-width: 900px ) and ( min-width: 700px) 
+{
+    .icon
+    {
+        width: 30% !important;
+    }
+    .icon img
+    {
+        margin-bottom: 1rem !important;
+    }
+    #last
+    {
+        margin-top: 3rem !important;
+    }
+}
+@media (max-width: 700px ) and ( min-width: 600px) 
+{
+    .icon
+    {
+        width: 35% !important;
+    }
+    .icon img
+    {
+        margin-bottom: 1rem !important;
+    }
+    #last
+    {
+        margin-top: 4rem !important;
+    }
+}
+@media (max-width: 600px ) and ( min-width: 500px) 
+{
+    .icon
+    {
+        width: 40% !important;
+    }
+    .icon img
+    {
+        margin-bottom: 0.8rem !important;
+    }
+    #last
+    {
+        margin-top: 4rem !important;
+    }
+}
+@media (max-width: 500px ) and ( min-width: 400px) 
+{
+    .icon
+    {
+        width: 40% !important;
+    }
+    .icon img
+    {
+        margin-bottom: 0.8rem !important;
+    }
+    #last
+    {
+        margin-top: 4rem !important;
+    }
+}
+@media (max-width: 400px ) and ( min-width: 350px) 
+{
+    .icon
+    {
+        width: 45% !important;
+    }
+    .icon img
+    {
+        margin-bottom: 0.5rem !important;
+    }
+    #last
+    {
+        margin-top: 4rem !important;
+    }
+}
+@media (max-width: 350px ) and ( min-width: 200px) 
+{
+    .icon
+    {
+        width: 50% !important;
+    }
+    .icon img
+    {
+        margin-bottom: 0.5rem !important;
+    }
+    #last
+    {
+        margin-top: 4rem !important;
+    }
+}
+/* ********************** edit footer logos  **************        end          ********************************************************* */
+/* ********************** edit p-container  **************        start          ********************************************************* */
+@media (min-width: 400px) and  ( max-width:475px)
+{
+    #p-container
+    {
+        height: 350px;
+    }   
+}
+@media (min-width: 1000px) and  ( max-width:1100px)
+{
+    #p-container
+    {
+        width: auto;
+    }   
+}
+@media (min-width: 900px) and  ( max-width:1000px)
+{
+    #p-container
+    {
+        height: 670px;
+    }   
+}
+
+/* ********************** edit p-container  **************        end          ********************************************************* */
+/* ***************************** edit logo abjd.store margins *********** start *********************************************************  */
+@media  (min-width:1200px) {
+    #abjd-store
+    {
+        margin: 2% auto 0% auto !important;
+        padding-bottom: 0%;
+    }
+    #explain 
+    {
+        margin-top: 3%;
+    }
+}
+@media (max-width: 1200px) and (min-width:0) {
+    #abjd-store
+    {
+        padding-top: 3% !important;
+        padding-bottom: 3% !important;
+
+    }
+}
+
+/* ***************************** edit logo abjd.store margins *********** end *********************************************************  */
+
+/* **************************** phone 2 edit ******************************* start **************************** */
+@media (max-width:1650px) and (min-width:100px) {
+    #phone-2edit
+{
+    width: 22%;
+}
+}
+@media (max-width:1700px) and (min-width:1600px) {
+    .test-phone1
+    {
+        width: 150px !important;
+    }
+    .test-phone2
+    {
+        width: 140px !important;
+    }
+}
+/* **************************** phone 2 edit ******************************* end **************************** */
+/* *************************  tables header edit **************************************** start *************************** */
+#table-title-glob, #table-title
+{
+    color: white !important;
+}
+@media (max-width: 3000px) and (min-width:1900px) {
+    #table-title-glob, #table-title
+    {
+        font-size: 60px !important;
+        margin-bottom: 25px;
+    }
+}
+@media (max-width: 1900px) and (min-width:1575px) {
+    #table-title-glob, #table-title
+    {
+        font-size: 50px !important;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 1575px) and (min-width:1300px) {
+    #table-title-glob, #table-title
+    {
+        font-size: 40px !important;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 1300px) and (min-width:1200px) {
+    #table-title-glob, #table-title
+    {
+        font-size: 38px !important;
+        margin-bottom: 26px;
+    }
+}
+@media (max-width: 1200px) and (min-width:900px) {
+    #table-title-glob, #table-title
+    {
+        font-size: 34px !important;
+        margin-bottom: 24px;
+    }
+}
+@media (max-width: 900px) and (min-width:760px) {
+    #table-title-glob, #table-title
+    {
+        font-size: 30px !important;
+        margin-bottom: 8px;
+    }
+}
+@media (max-width: 760px) and (min-width:575px) {
+    #table-title-glob, #table-title
+    {
+        font-size: 26px !important;
+        margin-bottom: 8px;
+    }
+}
+@media (max-width: 575px) and (min-width:475px) {
+    #table-title-glob, #table-title
+    {
+        font-size: 22px !important;
+        margin-bottom: 4px;
+    }
+}
+@media (max-width: 475px) and (min-width:200px) {
+    #table-title-glob, #table-title
+    {
+        font-size: 16px !important;
+        margin-bottom: 2px;
+    }
+}
+/* *************************  tables header edit **************************************** end *************************** */
+/**************************** nav bar edit ************************************** start ************************ */
+
+/**************************** nav bar edit ************************************** end ************************ */
+@media (min-width:1850px) {
+    .left-item, .nav-item, .right-item
+    {
+        width: 160px;
+    }
+}
+
+/* ******************************************* phones edite and apple ap store edit **************************************************************************** */
+@media (max-width: 400px) and (min-width: 300px){
+    .google-apple-cards 
+    {
+        margin-bottom: 0.5rem !important; 
+    }
+    #devices-small
+    {
+        margin-bottom: 0.5rem !important;
+    }
+}
+@media (max-width: 520px) and (min-width: 400px){
+    .google-apple-cards 
+    {
+        margin-bottom: 2rem !important; 
+    }
+    #devices-small
+    {
+        height: 220px !important;
+        margin-bottom: 1rem !important;
+    }
+}
+@media (max-width: 768px) and (min-width: 520px){
+    .google-apple-cards 
+    {
+        margin-top: 3.8rem !important;
+        margin-bottom: 2.5rem !important; 
+    }
+    #devices-small
+    {
+        /* height: 220px !important; */
+        margin-bottom: 1rem !important;
+    }
+}
+@media (max-width: 900px) and (min-width: 768px){
+    .google-apple-cards 
+    {
+        margin-top: 2rem;
+        margin-bottom: 3rem !important; 
+    }
+    .google-apple-cards div 
+    {
+        margin-top: 0 !important;
+    }
+    #devices-small
+    {
+        height: 420px;
+        /* height: 220px !important; */
+        margin-bottom: 2rem !important;
+    }
+}
+@media (max-width: 1300px) and (min-width: 1200px){
+    .google-apple-cards 
+    {
+        margin-top: 2rem;
+        margin-bottom: 3rem !important; 
+    }
+    .google-apple-cards div 
+    {
+        margin-top: 0 !important;
+    }
+    #devices-small
+    {
+        height: 650px;
+        /* height: 220px !important; */
+        margin-bottom: 2rem !important;
+    }
+}
+/* ******************************************* phones edite and apple ap store edit **************************************************************************** */
+@media (min-width:1600px) {
+    #cards-apple-google-desk
+    {
+        display: block;
+        visibility: visible;
+    }
+    #cards-apple-google-mob
+    {
+        visibility: hidden;
+        height: 1px;
+    }
+}
+
+@media (max-width:1600px) {
+    #cards-apple-google-desk
+    {
+        visibility:hidden;
+        height: 1px;
+        margin: 0 !important;
+        padding: 0% !important;
+    }
+    #cards-apple-google-desk div
+    {
+        margin: 0% !important;
+        padding: 0% !important;
+    }
+    #cards-apple-google-mob
+    {
+        visibility: visible;
+    }
+}
+@media (max-width:1600px) and (min-width:1000px) {
+    #cards-apple-google-mob 
+    {
+        margin: auto;
+        width: 70% !important;
+    }
+}

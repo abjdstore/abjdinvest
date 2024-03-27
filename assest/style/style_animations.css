@@ -1,0 +1,156 @@
+#card {
+    animation-name: animation1;
+    animation-duration: 7s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards; /* Keeps the final state after animation */
+    /* animation-play-state: running; */
+    animation-iteration-count:infinte
+}
+
+#cblue {
+    animation-name: animation2;
+    animation-duration: 7s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    /* animation-play-state: running; */
+    animation-iteration-count:infinte
+}
+
+#cred {
+    animation-name: animation3;
+    animation-duration: 7s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    /* animation-play-state: running; */
+    animation-iteration-count:infinte
+}
+
+#watch {
+    animation-name: animation4;
+    animation-duration: 7s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    /* animation-play-state: running; */
+    animation-iteration-count:infinte
+}
+
+#box {
+    animation-name: animation5;
+    animation-duration: 7s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    /* animation-play-state: running; */
+    animation-iteration-count:infinte
+}
+
+#camera {
+    animation-name: animation6;
+    animation-duration: 7s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    /* animation-play-state: running; */
+    animation-iteration-count:infinte
+}
+
+#clothes {
+    animation-name: animation7;
+    animation-duration: 7s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    /* animation-play-state: running; */
+    animation-iteration-count:infinte
+}
+
+#shoe {
+    animation-name: animation8;
+    animation-duration: 7s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    /* animation-play-state: running; */
+    animation-iteration-count:infinte
+}
+
+#bags {
+    animation-name: animation9;
+    animation-duration: 7s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    /* animation-play-state: running; */
+    animation-iteration-count:infinte
+}
+
+#fpot {
+    animation-name: animation10;
+    animation-duration: 7s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    /* animation-play-state: running; */
+    animation-iteration-count:infinte
+}
+@keyframes animation1 { /* card */
+    0%   {top: 20%; left: 35%;}
+    25%  {top: 30%; left: 35%;}
+    50%  {top: 10%; left: 35%;}
+    100% {top: 20%; left: 35%;}
+}
+
+@keyframes animation2 { /* cblue*/
+    0%   {top: 22%; left: 35%;}
+    25% {top: 22%; left: 23%;}
+    50% {top: 22%; left: 18%;}
+    100% {top: 22%; left: 35%; }
+}
+
+@keyframes animation3 { /* cred */ 
+    0%   {top: 20%; left: 35%;}
+    25% {top: 15%; left: 50%;}
+    50% {top: 20%; left: 53%;}
+    100% {top: 20%; left: 35;}
+}
+
+@keyframes animation4 { /*watch*/
+    0%   {top: 10%; left: 35%;}
+    25%  {top: 10%; left: 23%;}
+    50%  {top: 5%; left: 15%;}
+    100% {top: 10%; left: 35%;}
+}
+
+@keyframes animation5 { /*box*/
+    0%   {top: 12%; left: 45%;}
+    25%  {top: 9%; left: 50%;}
+    50%  {top: 6%; left: 53%;}
+    100% {top: 12%; left: 45%;}
+}
+
+@keyframes animation6 { /* camera */
+    0%   {top: 50%; left: 38%;}
+    50%  {top: 55%; left: 20%;}
+    100% {top: 50%; left: 38%;}
+}
+
+@keyframes animation7 { /* clothes */
+    0%   {top: 40%; left: 35%;}
+    25%  {top: 35%; left: 15%;}
+    50%  {top: 35%; left: 10%;}
+    100% {top: 40%; left: 35%;}
+}
+
+@keyframes animation8 { /* shoe */
+    0%   {top: 22%; left: 35%;}
+    25%  {top: 22%; left: 50%;}
+    50%  {top: 15%; left: 65%;}
+    100% {top: 22%; left: 35%;}
+}
+
+@keyframes animation9 { /* bags */
+    0%   {top: 40%; left: 35%;}
+    50%  {top: 40%; left: 50%;}
+    50%  {top: 35%; left: 55%;}
+    100% {top: 40%; left: 35%;}
+}
+@keyframes animation10 { /* fpot */
+    0%   {top: 20%; left: 35%;}
+    25%  {top: 40%; left: 40%;}
+    50%  {top: 55%; left: 70%;}    
+    100% {top: 20%; left: 35%;}
+}
